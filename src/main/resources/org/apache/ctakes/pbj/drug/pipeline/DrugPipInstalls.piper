@@ -1,0 +1,12 @@
+
+// Set the command line parameter -d to accept the directory of the Python installation.
+cli CommandDir=d
+
+//add CommandRunner Command="python -m pip install dkpro-cassis" Wait=yes
+//add CommandRunner Command="python -m pip install stomp.py" Wait=yes
+
+//add CommandRunner Command="python -m pip install -e ctakes-pbj" Wait=yes
+
+
+add CommandRunner Command="python -m pip install cnlp-transformers" Wait=yes
+

@@ -1,3 +1,8 @@
+# IntelliJ project and target
+/.idea/
+target/
+ctakes-pbj.iml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
